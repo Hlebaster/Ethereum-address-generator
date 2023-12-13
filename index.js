@@ -3,8 +3,8 @@ const axios = require('axios');
 const cheerio = require('cheerio')
 const { Worker, isMainThread, workerData } = require('worker_threads');
 
-const TELEGRAM_BOT_TOKEN = "6601744224:AAH9El9DnjcUf9zIhqr99jOEHvlxgaD0nJE";
-const TELEGRAM_CHAT_ID = "5581608237";
+const TELEGRAM_BOT_TOKEN = "TELEGRAM_BOT_TOKEN";
+const TELEGRAM_CHAT_ID = "TELEGRAM_CHAT_ID";
 const THREAD_COUNT = 100;
 const ADDRESS_COUNT = 1000000000000000;
 
