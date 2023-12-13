@@ -49,7 +49,3 @@ node index.js
 </pre>
 <h2>Telegram Configuration</h2>
 <p>To receive Telegram notifications, provide your Telegram bot token and chat ID in the <code>TELEGRAM_BOT_TOKEN</code> and <code>TELEGRAM_CHAT_ID</code> variables in the <code>index.js</code> file.</p>
-<h2>Customization</h2>
-<p>You can customize the script by modifying the <code>processAddress</code> function to suit your specific requirements.</p>
-
-
